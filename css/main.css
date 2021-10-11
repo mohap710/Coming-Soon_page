@@ -5,12 +5,11 @@ Last change:
 Assigned to:  Bach Le
 Primary use:  
 -------------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
 
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
 @font-face {
   font-family: Montserrat-Regular;
   src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
@@ -37,7 +36,9 @@ Primary use:
 /*---------------------------------------------*/
 .container {max-width: 1200px;}
 
-
+h1{
+  font-family: 'El Messiri', sans-serif;
+}
 /*//////////////////////////////////////////////////////////////////
 [ RS Flip Clock ]*/
 .flip-clock-wrapper {
