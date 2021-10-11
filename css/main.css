@@ -341,18 +341,20 @@ h1{
   top: 0;
   left: 0;
   background: #7579ff;
-  background: -webkit-linear-gradient(top, #b224ef, #7579ff);
-  background: -o-linear-gradient(top, #b224ef, #7579ff);
-  background: -moz-linear-gradient(top, #b224ef, #7579ff);
-  background: linear-gradient(top, #b224ef, #7579ff);
+  background: -webkit-linear-gradient(top,#0c5460, #004085);
+  background: -o-linear-gradient(top,#0c5460, #004085);
+  background: -moz-linear-gradient(top,#0c5460, #004085);
+  background: linear-gradient(top,#0c5460, #004085);
   opacity: 0.8;
 }
 
 
 /*---------------------------------------------*/
 .wrappic1 {
-  display: block;
+  display: flex;
   flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wrappic1 img {
