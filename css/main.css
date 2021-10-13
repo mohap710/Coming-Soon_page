@@ -35,9 +35,35 @@ Primary use:
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
 .container {max-width: 1200px;}
-
+.primary-font{
+  font-family: 'El Messiri', sans-serif;
+}
 h1{
   font-family: 'El Messiri', sans-serif;
+}
+.glass-card {
+  background-color: #ffffff38;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: #00000063 -10px 6px 8px 0px, #00000030 0px 20px 9px;
+}
+[uk-slider]{
+  cursor: grab;
+}
+.uk-panel>img{
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 700ms;
+}
+.uk-panel>img:hover{
+  transform: scale3d(1.1,1.1,1);
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 700ms;
+}
+.outline-button{
+  color: white;
+  border: 1px solid white;
+}
+.outline-button:hover{
+  background-color: #011a35;
+  border: 1px solid #011a35;
 }
 /*//////////////////////////////////////////////////////////////////
 [ RS Flip Clock ]*/
@@ -341,10 +367,10 @@ h1{
   top: 0;
   left: 0;
   background: #7579ff;
-  background: -webkit-linear-gradient(top,#0c5460, #004085);
-  background: -o-linear-gradient(top,#0c5460, #004085);
-  background: -moz-linear-gradient(top,#0c5460, #004085);
-  background: linear-gradient(top,#0c5460, #004085);
+  background: -webkit-linear-gradient(top,#0c5460, #011a35);
+  background: -o-linear-gradient(top,#0c5460, #011a35);
+  background: -moz-linear-gradient(top,#0c5460, #011a35);
+  background: linear-gradient(top,#0c5460, #011a35);
   opacity: 0.8;
 }
 
