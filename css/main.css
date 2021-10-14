@@ -43,7 +43,7 @@ h1{
 }
 .glass-card {
   background-color: #ffffff38;
-  padding: 50px;
+  padding: 1.5rem;
   border-radius: 20px;
   box-shadow: #00000063 -10px 6px 8px 0px, #00000030 0px 20px 9px;
 }
@@ -56,6 +56,9 @@ h1{
 .uk-panel>img:hover{
   transform: scale3d(1.1,1.1,1);
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 700ms;
+}
+input,textarea{
+  background-color: #c2ccd5!important;
 }
 .outline-button{
   color: white;
